@@ -1,7 +1,5 @@
+import { Star } from "lucide-react";
+
 export default function FeatureBook() {
-  return (
-    <>
-      <h1>FeatureBook</h1>
-    </>
-  );
+  return <Star />;
 }

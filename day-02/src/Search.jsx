@@ -1,7 +1,11 @@
 export default function Search() {
   return (
     <>
-      <h1>Search</h1>
+      <input
+        className="border-2  w-full p-2 rounded my-3"
+        type="text"
+        placeholder="Book Search..."
+      />
     </>
   );
 }
